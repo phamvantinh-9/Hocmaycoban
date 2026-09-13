@@ -1,16 +1,16 @@
-# 🤖 Dự đoán khả năng mua ô tô bằng thuật toán KNN
+# Dự đoán khả năng mua ô tô bằng thuật toán KNN
 
 Dự án xây dựng hệ thống dự đoán khả năng mua ô tô của khách hàng
 bằng thuật toán K-Nearest Neighbors (KNN).
 
-## 📌 Thông tin đề tài
+##  Thông tin đề tài
 
 - **Môn học:** Học máy cơ bản
 - **Thuật toán:** K-Nearest Neighbors (KNN)
 - **Bài toán:** Phân loại nhị phân
 - **Đối tượng:** Khách hàng mua ô tô
 
-## 🎯 Mục tiêu
+##  Mục tiêu
 
 Xây dựng mô hình KNN để dự đoán khách hàng có khả năng mua
 ô tô hay không dựa trên các thông tin:
@@ -20,7 +20,7 @@ Xây dựng mô hình KNN để dự đoán khách hàng có khả năng mua
 - Số lần tìm hiểu xe
 - Số lần đến showroom
 
-## 🧠 Cơ chế hoạt động
+##  Cơ chế hoạt động
 
 KNN dự đoán khách hàng mới bằng cách:
 
@@ -29,7 +29,7 @@ KNN dự đoán khách hàng mới bằng cách:
 3. Xác định nhóm của các khách hàng gần nhất.
 4. Bỏ phiếu để đưa ra kết quả dự đoán.
 
-## 📊 Dữ liệu đầu vào
+##  Dữ liệu đầu vào
 
 | Đặc trưng | Ý nghĩa |
 |---|---|
@@ -38,12 +38,12 @@ KNN dự đoán khách hàng mới bằng cách:
 | Tìm hiểu xe | Số lần tìm hiểu xe |
 | Showroom | Số lần đến showroom |
 
-## 🔮 Kết quả dự đoán
+##  Kết quả dự đoán
 
 - `0`: Không có khả năng mua
 - `1`: Có khả năng mua
 
-## 🚀 Chạy dự án
+##  Chạy dự án
 
 ### Cài đặt thư viện
 
@@ -53,7 +53,7 @@ Huấn luyện mô hình
 python training/train.py
 Chạy API
 uvicorn app.main:app --reload --port 3000
-🌐 API
+ API
 Kiểm tra trạng thái
 GET /health
 Dự đoán
